@@ -14,12 +14,12 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a href="{{ route('home') }}" class="nav-link">
-            <i class="material-icons">dashboard</i> {{ __('Dashboard') }}
+            <i class="material-icons">dashboard</i> {{ __('Home') }}
           </a>
         </li>
         <li class="nav-item{{ $activePage == 'register' ? ' active' : '' }}">
-          <a href="{{ route('register') }}" class="nav-link">
-            <i class="material-icons">person_add</i> {{ __('Register') }}
+          <a href="" class="nav-link">
+            <i class="material-icons">person_add</i> {{ __('Link') }}
           </a>
         </li>
         <li class="nav-item{{ $activePage == 'login' ? ' active' : '' }}">
@@ -28,8 +28,8 @@
           </a>
         </li>
         <li class="nav-item ">
-          <a href="{{ route('profile.edit') }}" class="nav-link">
-            <i class="material-icons">face</i> {{ __('Profile') }}
+          <a href="" class="nav-link">
+            <i class="material-icons">face</i> {{ __('About Us') }}
           </a>
         </li>
       </ul>
