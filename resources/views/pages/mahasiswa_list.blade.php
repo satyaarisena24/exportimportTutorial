@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'table', 'titlePage' => __('Table List')])
+@extends('layouts.app', ['activePage' => 'mahasiswa', 'titlePage' => __('Mahasiswa List')])
 
 @section('content')
 <div class="content">
@@ -22,13 +22,13 @@
                                         No
                                     </th>
                                     <th>
-                                        No. Dokumen
+                                        NIM
                                     </th>
                                     <th>
                                         Name
                                     </th>
                                     <th>
-                                        Keterangan
+                                        Prodi
                                     </th>
                                     <th>
 
